@@ -1,0 +1,39 @@
+{
+  "name": "upload-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "better-npm-run start"
+  },
+  "betterScripts": {
+    "start": {
+      "command": "supervisor ./index.js",
+      "env": {
+        "NODE_PATH": "./",
+        "port": 4040
+      }
+    }
+  },
+  "dependencies": {
+    "async": "^3.0.1",
+    "axios": "0.17.1",
+    "babel-preset-env": "1.7.0",
+    "babel-register": "6.26.0",
+    "body-parser": "1.18.3",
+    "compression": "1.7.1",
+    "cookie-parser": "1.4.4",
+    "express": "4.16.2",
+    "moment": "2.24.0",
+    "moment-timezone": "0.5.23",
+    "multiparty": "^4.2.1",
+    "nodemailer": "^6.2.1",
+    "path": "0.12.7",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "better-npm-run": "0.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
