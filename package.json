@@ -24,7 +24,7 @@
     "compression": "1.7.1",
     "cookie-parser": "1.4.4",
     "express": "4.16.2",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "moment-timezone": "0.5.23",
     "multiparty": "^4.2.1",
     "nodemailer": "^6.2.1",
